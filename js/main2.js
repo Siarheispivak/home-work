@@ -19,3 +19,26 @@ let styles2 = ["джаз", "бдюз", "Рэп", "Регги", "Классика
 
 
 alert(styles2.slice(-1));
+
+
+
+
+
+let colors = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+
+
+
+// alert(index);
+let s = '#';
+
+for (i = 1; i <= 6; i++) {
+
+   let index = Math.floor(Math.random() * colors.length);
+
+   s += colors[index];
+}
+
+
+// alert(s);
+document.body.style.background = s;
+colorise.innerHTML = `Цвет: ${s}`;
