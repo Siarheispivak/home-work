@@ -3,10 +3,12 @@
    border: 3px solid blue;
    display: flex;
    /* justify-content: space-evenly; */
+   flex-wrap: wrap; 
 }
 
 .new {
    margin: 10px;
    color: white;
-   padding: 5px;
+   padding: 50px;
+   
 }
